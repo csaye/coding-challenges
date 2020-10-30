@@ -20,6 +20,12 @@ Prints "Hello World" to the console.
 
 Languages: C#, C++, Java, JavaScript, Python
 
+## Quine
+
+Prints itself (the program) to the console.
+
+Languages: C#
+
 ## ReverseString
 
 Takes a string input from the console and prints the reverse of that string.

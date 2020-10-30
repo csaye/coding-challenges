@@ -1,6 +1,6 @@
 using System;
 
-class HelloWorld
+class ReverseString
 {
     static void Main()
     {

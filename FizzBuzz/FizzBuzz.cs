@@ -1,6 +1,6 @@
 using System;
 
-class HelloWorld
+class FizzBuzz
 {
     static void Main()
     {

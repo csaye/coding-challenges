@@ -1,4 +1,5 @@
 # coding-challenges
+
 A collection of common coding challenges in various languages.
 
 ## Fibonacci
@@ -18,3 +19,9 @@ Languages: C#, C++, Java, JavaScript, Python
 Prints "Hello World" to the console.
 
 Languages: C#, C++, Java, JavaScript, Python
+
+## ReverseString
+
+Takes a string input from the console and prints the reverse of that string.
+
+Languages: C#, C++, Java, Python

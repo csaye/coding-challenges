@@ -24,7 +24,7 @@ Languages: C#, C++, Java, JavaScript, Python
 
 Prints itself (the program) to the console.
 
-Languages: C#, Java, JavaScript
+Languages: C#, C++, Java, JavaScript, Python
 
 ## ReverseString
 

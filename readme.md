@@ -20,6 +20,12 @@ Prints "Hello World" to the console.
 
 Languages: C#, C++, Java, JavaScript, Python
 
+## Primes
+
+Prints all prime numbers up to 100 to the console.
+
+Languages: C#, C++, Java, JavaScript, Python
+
 ## Quine
 
 Prints itself (the program) to the console.

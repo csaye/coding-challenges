@@ -24,7 +24,7 @@ Languages: C, C#, C++, Java, JavaScript, Python
 
 Prints all prime numbers up to 100 to the console.
 
-Languages: C#, C++, Java, JavaScript, Python
+Languages: C, C#, C++, Java, JavaScript, Python
 
 ## Quine
 
@@ -36,4 +36,4 @@ Languages: C#, C++, Java, JavaScript, Python
 
 Takes a string input from the console and prints the reverse of that string.
 
-Languages: C#, C++, Java, Python
+Languages: C, C#, C++, Java, Python

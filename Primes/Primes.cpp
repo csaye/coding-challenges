@@ -6,7 +6,7 @@ int main()
     for (int i = 2; i < 100; i++)
     {
         bool isPrime = true;
-        int upperBound = (int)std::sqrt(i);
+        int upperBound = std::sqrt(i);
 
         for (int j = 2; j <= upperBound; j++)
         {

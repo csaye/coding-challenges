@@ -7,7 +7,7 @@ class Primes
         for (int i = 2; i < 100; i++)
         {
             bool isPrime = true;
-            int upperBound = (int)Math.Sqrt(i);
+            double upperBound = Math.Sqrt(i);
 
             for (int j = 2; j <= upperBound; j++)
             {

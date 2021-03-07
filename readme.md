@@ -26,6 +26,12 @@ Prints "Hello World" to the console.
 
 Languages: C, C#, C++, Haskell, Java, JavaScript, Python
 
+## Postfix
+
+Takes a postfix expression input from the console and prints the result of that expression.
+
+Languages: C#, C++, Java, Python
+
 ## Primes
 
 Prints all prime numbers up to 100 to the console.

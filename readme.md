@@ -2,6 +2,12 @@
 
 A collection of common coding challenges in various languages.
 
+## DecimalBinary
+
+Takes an integer input from the console and prints the binary representation of that integer.
+
+Languages: C#, C++, Java, Python
+
 ## Factorial
 
 Takes an integer input from the console and prints the factorial of that integer.

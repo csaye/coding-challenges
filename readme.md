@@ -2,6 +2,12 @@
 
 A collection of common coding challenges in various languages.
 
+## Factorial
+
+Takes an integer input from the console and prints the factorial of that integer.
+
+Languages: C#, C++, Java, Python
+
 ## Fibonacci
 
 Prints the first 12 numbers in the Fibonacci sequence (including 0 and 1) to the console.

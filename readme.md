@@ -2,6 +2,12 @@
 
 A collection of common coding challenges in various languages.
 
+## BinaryDecimal
+
+Takes a binary number input from the console and prints the integer representation of that binary number.
+
+Languages: C#, C++, Java, Python
+
 ## DecimalBinary
 
 Takes an integer input from the console and prints the binary representation of that integer.

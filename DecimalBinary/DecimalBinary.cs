@@ -6,7 +6,7 @@ class DecimalBinary
     {
         Console.Write("Enter a positive integer: ");
         string input = Console.ReadLine();
-        int n = Int32.Parse(input);
+        int n = int.Parse(input);
         string b = "";
 
         while (n > 0)

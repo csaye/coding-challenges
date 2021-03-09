@@ -14,13 +14,13 @@ class Postfix
         {
             try
             {
-                int num = Int32.Parse(elem);
+                int num = int.Parse(elem);
                 stack.Push(num.ToString());
             }
             catch
             {
-                int b = Int32.Parse(stack.Pop());
-                int a = Int32.Parse(stack.Pop());
+                int b = int.Parse(stack.Pop());
+                int a = int.Parse(stack.Pop());
                 if (elem == "+") stack.Push((a + b).ToString());
                 else if (elem == "-") stack.Push((a - b).ToString());
                 else if (elem == "*") stack.Push((a * b).ToString());

@@ -6,7 +6,7 @@ class Factorial
     {
         Console.Write("Enter a positive integer: ");
         string input = Console.ReadLine();
-        int n = Int32.Parse(input);
+        int n = int.Parse(input);
         int f = 1;
 
         while (n > 1)

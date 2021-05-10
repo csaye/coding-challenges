@@ -1,4 +1,4 @@
-# coding-challenges
+# Coding Challenges
 
 A collection of common coding challenges in various languages.
 
@@ -22,7 +22,7 @@ Languages: C#, C++, Java, Python
 
 ## Fibonacci
 
-Prints the first 12 numbers in the Fibonacci sequence (including 0 and 1) to the console.
+Prints the first 10 numbers of the Fibonacci sequence to the console.
 
 Languages: C, C#, C++, Haskell, Java, JavaScript, Python
 

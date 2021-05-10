@@ -1,7 +1,5 @@
-let a = 0;
+let a = -1;
 let b = 1;
-print(a);
-print(b);
 
 for (let i = 0; i < 10; i++) {
     let c = a + b;

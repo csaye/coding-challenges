@@ -2,11 +2,9 @@
 
 int main()
 {
-    int a = 0;
+    int a = -1;
     int b = 1;
-    std::cout << a << "\n";
-    std::cout << b << "\n";
-    
+
     for (int i = 0; i < 10; i++)
     {
         int c = a + b;

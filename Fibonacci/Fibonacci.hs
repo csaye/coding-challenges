@@ -7,6 +7,4 @@ fibonacci a b n =
 
 main =
     do
-        print 0
-        print 1
-        fibonacci 0 1 10
+        fibonacci -1 1 10

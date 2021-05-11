@@ -1,5 +1,3 @@
-!
-function $() {
-    print("!" + $ + "()");
-}
-()
+!function f() {
+    console.log("!" + f + "()");
+}()

@@ -1,16 +1,10 @@
-#include <iostream>
-
-int main()
+int binaryDecimal(std::string binary)
 {
-    std::cout << "Enter a binary number: ";
-    std::string b;
-    getline(std::cin, b);
-    int n = 0;
-
-    for (int i = 0; i < b.length(); i++)
+    int total = 0;
+    for (int i = 0; i < binary.length(); i++)
     {
-        std::string c(1, b[i]);
-        n += n + stoi(c);
+        std::string ch(1, binary[i]);
+        total += total + stoi(ch);
     }
-    std::cout << n << "\n";
+    return total;
 }

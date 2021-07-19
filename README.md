@@ -4,9 +4,9 @@ A collection of common coding challenges in various languages.
 
 ## BinaryDecimal
 
-Takes a binary number input from the console and prints the integer representation of that binary number.
+Takes a binary number as a string and prints the integer representation of that binary number.
 
-Languages: C#, C++, Java, Python
+Languages: C#, C++, Java, JavaScript, Python
 
 ## DecimalBinary
 

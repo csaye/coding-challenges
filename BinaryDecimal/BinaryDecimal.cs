@@ -1,17 +1,12 @@
-using System;
-
 public class Program
 {
-    public static void Main()
+    public static int BinaryDecimal(string binary)
     {
-        Console.Write("Enter a binary number: ");
-        string b = Console.ReadLine();
-        int n = 0;
-
-        foreach (char c in b)
+        int total = 0;
+        foreach (char ch in binary)
         {
-            n += n + (int)char.GetNumericValue(c);
+            total += total + (int)char.GetNumericValue(ch);
         }
-        Console.WriteLine(n);
+        return total;
     }
 }

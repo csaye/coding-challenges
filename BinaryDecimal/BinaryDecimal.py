@@ -1,6 +1,5 @@
-b = input('Enter a binary number: ')
-n = 0
-
-for c in b:
-    n += n + int(c)
-print(n)
+def binary_decimal(binary):
+    total = 0
+    for char in binary:
+        total += total + int(char)
+    return total

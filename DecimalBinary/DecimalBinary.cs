@@ -1,8 +1,8 @@
 using System;
 
-class DecimalBinary
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("Enter a positive integer: ");
         string input = Console.ReadLine();

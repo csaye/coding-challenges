@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-class Postfix
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("Enter a postfix expression: ");
         string exp = Console.ReadLine();

@@ -1,8 +1,8 @@
 using System;
 
-class Fibonacci
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         int a = -1;
         int b = 1;

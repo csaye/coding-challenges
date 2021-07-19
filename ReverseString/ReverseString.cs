@@ -1,8 +1,8 @@
 using System;
 
-class ReverseString
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("Enter a string to reverse: ");
         string input = Console.ReadLine();

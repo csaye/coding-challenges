@@ -29,3 +29,5 @@ A collection of common coding challenges in C#, C++, Java, JavaScript, and Pytho
 **Sort**: Sorts given array.
 
 **Sum**: Returns the sum of two integers.
+
+**WordCount**: Returns the number of words in a given string.

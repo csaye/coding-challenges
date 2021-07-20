@@ -1,19 +1,13 @@
-using System;
-
 public class Program
 {
-    public static void Main()
+    public static string DecimalBinary(int num)
     {
-        Console.Write("Enter a positive integer: ");
-        string input = Console.ReadLine();
-        int n = int.Parse(input);
-        string b = "";
-
-        while (n > 0)
+        string binary = "";
+        while (num > 0)
         {
-            b = (n % 2).ToString() + b;
-            n /= 2;
+            binary = (num % 2).ToString() + binary;
+            num /= 2;
         }
-        Console.WriteLine(b);
+        return binary;
     }
 }

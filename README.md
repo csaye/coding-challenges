@@ -4,11 +4,11 @@ A collection of common coding challenges in C#, C++, Java, JavaScript, and Pytho
 
 ## BinaryDecimal
 
-Takes a binary number as a string and prints the integer representation of that binary number.
+Returns the decimal representation of a given binary string.
 
 ## DecimalBinary
 
-Takes an integer input from the console and prints the binary representation of that integer.
+Returns the binary representation of a given decimal.
 
 ## Factorial
 

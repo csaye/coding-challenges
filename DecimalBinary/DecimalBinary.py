@@ -1,7 +1,6 @@
-n = int(input('Enter a positive integer: '))
-b = ''
-
-while n > 0:
-    b = str(n % 2) + b
-    n //= 2
-print(b)
+def decimal_binary(num):
+    binary = ''
+    while num > 0:
+        binary = str(num % 2) + binary
+        num //= 2
+    return binary

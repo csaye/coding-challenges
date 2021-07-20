@@ -8,7 +8,7 @@ A collection of common coding challenges in C#, C++, Java, JavaScript, and Pytho
 
 **DecimalBinary**: Returns the binary representation of a given decimal.
 
-**Factorial**: Takes an integer input from the console and prints the factorial of that integer.
+**Factorial**: Returns the factorial of a given integer.
 
 **Fibonacci**: Prints the first 10 numbers of the Fibonacci sequence to the console.
 

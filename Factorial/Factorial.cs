@@ -1,19 +1,13 @@
-using System;
-
 public class Program
 {
-    public static void Main()
+    public static int Factorial(int num)
     {
-        Console.Write("Enter a positive integer: ");
-        string input = Console.ReadLine();
-        int n = int.Parse(input);
-        int f = 1;
-
-        while (n > 1)
+        int fac = 1;
+        while (num > 1)
         {
-            f *= n;
-            n -= 1;
+            fac *= num;
+            num--;
         }
-        Console.WriteLine(f);
+        return fac;
     }
 }

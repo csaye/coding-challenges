@@ -1,7 +1,6 @@
-n = int(input('Enter a positive integer: '))
-f = 1
-
-while n > 1:
-    f *= n
-    n -= 1
-print(f)
+def factorial(num):
+    fac = 1
+    while num > 1:
+        fac *= num
+        num -= 1
+    return fac

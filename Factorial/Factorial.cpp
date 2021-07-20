@@ -1,17 +1,10 @@
-#include <iostream>
-
-int main()
+int factorial(int num)
 {
-    std::cout << "Enter a positive integer: ";
-    std::string input;
-    getline(std::cin, input);
-    int n = stoi(input);
-    int f = 1;
-
-    while (n > 1)
+    int fac = 1;
+    while (num > 1)
     {
-        f *= n;
-        n--;
+        fac *= num;
+        num--;
     }
-    std::cout << f << "\n";
+    return fac;
 }

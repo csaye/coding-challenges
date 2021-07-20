@@ -42,6 +42,10 @@ Prints itself (the program) to the console.
 
 Takes a string input from the console and prints the reverse of that string.
 
+## Sort
+
+Sorts given array.
+
 ## Sum
 
 Returns the sum of two integers.

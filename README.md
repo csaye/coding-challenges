@@ -6,6 +6,8 @@ A collection of common coding challenges in C#, C++, Java, JavaScript, and Pytho
 
 **BinaryDecimal**: Returns the decimal representation of a given binary string.
 
+**Clamp**: Returns given integer clamped to given min and max.
+
 **DecimalBinary**: Returns the binary representation of a given decimal.
 
 **Factorial**: Returns the factorial of a given integer.

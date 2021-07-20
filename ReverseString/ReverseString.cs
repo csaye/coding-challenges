@@ -2,13 +2,11 @@ using System;
 
 public class Program
 {
-    public static void Main()
+    public static string ReverseString(string str)
     {
-        Console.Write("Enter a string to reverse: ");
-        string input = Console.ReadLine();
-        char[] inputArray = input.ToCharArray();
-        Array.Reverse(inputArray);
-        string output = new string(inputArray);
-        Console.WriteLine(output);
+        char[] arr = str.ToCharArray();
+        Array.Reverse(arr);
+        string rev = new string(arr);
+        return rev;
     }
 }

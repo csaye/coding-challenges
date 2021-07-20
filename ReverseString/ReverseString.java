@@ -1,12 +1,7 @@
-import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string to reverse: ");
-        String input = scanner.nextLine();
-        StringBuilder sb = new StringBuilder(input);
-        String output = sb.reverse().toString();
-        System.out.println(output);
+    public static String reverseString(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        String rev = sb.reverse().toString();
+        return rev;
     }
 }

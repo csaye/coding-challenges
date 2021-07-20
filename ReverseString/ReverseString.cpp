@@ -1,11 +1,8 @@
 #include <iostream>
 #include <algorithm>
 
-int main()
+std::string reverseString(std::string str)
 {
-    std::cout << "Enter a string to reverse: ";
-    std::string input;
-    getline(std::cin, input);
-    std::reverse(std::begin(input), std::end(input));
-    std::cout << input << "\n";
+    std::reverse(std::begin(str), std::end(str));
+    return str;
 }

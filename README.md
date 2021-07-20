@@ -40,7 +40,7 @@ Prints itself (the program) to the console.
 
 ## ReverseString
 
-Takes a string input from the console and prints the reverse of that string.
+Returns the reverse of a given string.
 
 ## Sort
 

@@ -1,5 +1,5 @@
 def binary_decimal(binary):
-    total = 0
+    num = 0
     for char in binary:
-        total += total + int(char)
-    return total
+        num += num + int(char)
+    return num

@@ -1,10 +1,10 @@
 public class Main {
     public static int binaryDecimal(String binary) {
         char[] chars = input.toCharArray();
-        int total = 0;
+        int num = 0;
         for (char ch : chars) {
-            total += total + Character.getNumericValue(ch);
+            num += num + Character.getNumericValue(ch);
         }
-        return total;
+        return num;
     }
 }

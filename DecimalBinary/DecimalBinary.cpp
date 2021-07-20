@@ -1,3 +1,5 @@
+#include <iostream>
+
 std::string decimalBinary(int num)
 {
     std::string binary = "";

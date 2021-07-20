@@ -1,7 +1,7 @@
 function binaryDecimal(binary) {
-    var total = 0;
+    var num = 0;
     for (var char of binary) {
-      total += total + parseInt(char);
+        num += num + parseInt(char);
     }
-    return total;
+    return num;
 }
